@@ -1,0 +1,82 @@
+
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border:#8B7969 1px solid;
+    max-width: 600px;
+    width: 90%;
+    max-height: 850px;
+    height: 85%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #8B7969;
+    position: relative;
+    margin: 0 auto;
+}
+.modal-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.modal-row strong {
+    width: 45%;
+    font-weight: bold;
+    color: #8B7969;
+}
+
+.modal-row span {
+    width: 55%;
+    color: #8B7969;
+    word-break: break-word;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 20px;
+    color: #8B7969;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+#modal-delete-form {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#modal-delete-form button {
+    background-color: #BA370D;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    margin: 25px auto;
+    margin-bottom: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#modal-delete-form button:hover {
+    background-color: #802f16;
+}
+

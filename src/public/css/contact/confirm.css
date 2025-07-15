@@ -1,0 +1,70 @@
+.confirm-container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.confirm-container h1 {
+    font-size: 32px;
+    color: #867f79;
+    margin: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.confirm-table th {
+    width: 30%;
+    background-color: #b5a397;
+    border: 1px solid #e9dcd4;
+    color: #fff;
+    text-align: left;
+    padding: 10px 30px;
+    font-weight: normal;
+}
+
+.confirm-table td {
+    background-color: #ffffff;
+    border: 1px solid #e9dcd4;
+    padding: 10px 30px;
+    text-align: left;
+    color: #867f79;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.button-area button[type="submit"][value="submit"] {
+    background-color: #867f79;
+    color: #fff;
+    padding: 5px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-area button[type="submit"][value="back"] {
+    background: none;
+    border: none;
+    color: #867f79;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button-area button:hover {
+    opacity: 0.8;
+}
+

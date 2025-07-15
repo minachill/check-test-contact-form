@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: 'Yu Gothic', sans-serif;
+    background-color: #ffffff;
+}
+
+.thanks-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.background-text {
+    position: absolute;
+    font-size: clamp(3rem, 18vw, 12rem);
+    color: #f2f2f2;
+    font-weight: bold;
+    z-index: 0;
+    user-select: none;
+    pointer-events: none;
+    font-family: 'Playfair Display', serif;
+    white-space: nowrap;
+}
+
+.thanks-message {
+    text-align: center;
+    z-index: 1;
+}
+
+.main-text {
+    font-size:clamp(1rem, 2vw, 1.5rem);
+    color: #867f79;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.home-button {
+    background-color: #867f79;
+    color: #fff;
+    padding: 10px 2.5em;
+    text-decoration: none;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    border: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+.home-button:hover {
+    background-color: #867f79;
+}
